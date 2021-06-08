@@ -21,7 +21,7 @@
   padding: 4px;
   cursor: pointer;
 }
-.light:active{
+.light.selected{
   box-shadow: bisque 0px 0px 50px 20px;
 }
 .red.light {
