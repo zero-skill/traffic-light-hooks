@@ -21,9 +21,9 @@ class TrafficLight extends React.Component {
         <div>
             <div className="stick"></div>
             <div className="container">
-                <div className={"red light" + redSelected} onClick={() => this.setState({ clickedLight: 'red' })}></div>
-                <div className={"yellow light" + yellowSelected} onClick={() => this.setState({ clickedLight: 'yellow' })}></div>
-                <div className={"green light" + greenSelected} onClick={() => this.setState({ clickedLight: 'green' })}></div>
+                <div className={"red light " + redSelected} onClick={() => this.setState({ clicked: 'red' })}></div>
+                <div className={"yellow light " + yellowSelected} onClick={() => this.setState({ clicked: 'yellow' })}></div>
+                <div className={"green light " + greenSelected} onClick={() => this.setState({ clicked: 'green' })}></div>
             </div>
         </div>
         );
